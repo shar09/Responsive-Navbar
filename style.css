@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Montserrat:600,700|Teko&display=swap');
+
+body {
+    background: url("background.jpeg");
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    height: auto !important;
+    min-height: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+}
+
+#logo {
+    color: #FF4136;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.nav-items {
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-between;
+}
+
+.nav-items li {
+    list-style: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
